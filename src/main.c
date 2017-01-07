@@ -36,9 +36,7 @@ int main(int argc, char* argv[]){
     	 if(isInputPresent(file))
     		 eeke(file);
     	 else
-    	 {
-    		 printf("\t\nSorry .. Seems like the File is EMPTY\n\t");
-    	 }
+		 printf("\t\nSorry .. Seems like the File is EMPTY\n\t");
      }
      else
      {
