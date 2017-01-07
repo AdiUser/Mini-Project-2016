@@ -7,16 +7,16 @@ int isFilePresent(char *file){
 
 FILE *ft = fopen(file, "r");
 
-if(ft)
+if(ft){
+    fclose(ft);
     return 1;
+}
 
-fclose(ft);
 return 0;
 
 }
 int isInputPresent(char *file){
-
-
+	
 	struct stat reg;
 		int newReg = stat(file ,&reg);
 
