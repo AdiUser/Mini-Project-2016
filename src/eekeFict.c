@@ -1,6 +1,6 @@
 
 /* IF a valid file is found then this function is called from the main.c file
- * the function is named after a japenese word "eeke" whose English
+ * the function is named after a japanese word "eeke" whose English
  * translation is "go"! :)
  */
 #include "header.h"
