@@ -78,7 +78,7 @@ FILE *Ifile = freopen(filename, "r", stdin);
         return ;
      }
    for(i=leftLim ; i<= rightLim ; i++)
-     if(isPrime(i) == 1){
+     if(isPrime(i)){
          primeCount++;
 
     }
