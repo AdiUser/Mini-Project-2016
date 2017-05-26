@@ -18,12 +18,11 @@ int isInputValid(char testString[]){
 
     else if(newValue <= 0)
         return 0;
-
-    else
+    
         return 0;
 
-
 }
+
 void showError(){
         freopen("CON","w",stdout);
         printf("\n\nNot Valid Input! :(\n\n");
